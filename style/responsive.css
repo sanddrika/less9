@@ -1,0 +1,56 @@
+@media (max-width:475px){
+    .burger-bar{
+        display: block;
+        color: black;
+        font-size: 40px;
+    }
+    .navi{
+        display: none;
+    }
+    .flex-header{
+        flex-direction: row-reverse;
+    }
+    .header-background{
+        background-position: 65%;
+    }
+}
+
+
+
+/* mobile zomebi */
+
+@media (min-width: 320px) and (max-width:768px){
+    .inner-block{
+        width: 80%;
+        margin-bottom: 80px;
+        margin: 0 auto;
+        
+    }
+    .main-block{
+        height: auto;
+    }
+    .container2{
+        flex-direction: column;
+    }
+}
+
+
+/* tabletis zomebi */
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .inner-block{
+        width: 45%;
+        margin-bottom: 93px;
+        
+    }
+    .main-block{
+        height: auto;
+    }
+}
+@media (min-width: 1025px)
+{
+    .inner-block{
+        width: 33%;
+    }
+}
